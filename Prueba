@@ -1,6 +1,15 @@
 #include <iostream>
 
+using namespace std;
+
+void hola();
+
 int main(){
 
+  system("pause");
   return 0;
+}
+
+void hola(){
+  cout << "Hola mundo" << endl;
 }
